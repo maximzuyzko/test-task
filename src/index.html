@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Логотип</title>
+        <link rel="icon" type="image/x-icon" href="img/logo.svg">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="visually-hidden">Лучший сайт в мире</h1>
+            <div class="container">
+                <div class="header__inner fx">
+                    <div>
+                        <a href="#" class="header__logo fx">
+                            <svg>
+                                <use xlink:href="img/sprite.svg#logo"></use>
+                            </svg>
+                            <div>Логотип</div>
+                        </a>
+                    </div>
+                    <ul class="header__list fx">
+                        <li class="header__item">
+                            <a class="header__title">Прием заявок</a>
+                            <div class="header__descr">до <span class="colorized">11</span> марта</div>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__title">Получение заданий</a>
+                            <div class="header__descr"><span class="colorized">4</span> марта</div>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__title">Внесение ответов</a>
+                            <div class="header__descr">до <span class="colorized">18</span> марта</div>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__title">Итоги конкурса</a>
+                            <div class="header__descr"><span class="colorized">19</span> марта</div>
+                        </li>
+                    </ul>
+                    <button class="btn header__btn" type="submit">Вход в кабинет</button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                <section class="main__wrapper fx">
+                    <div class="main__left">
+                        <h2 class="main__title">Тестовое задание для <span class="colorized">самого лучшего</span> верстальщика</h2>
+                        <div class="main__inner fx">
+                            <div>
+                                <div class="main__price">
+                                    <div class="main__cost">Низкий оргвзнос</div>
+                                    <div class="main__start fx">
+                                        <div class="">30</div>
+                                        <span>₽</span>
+                                        <span class="circle__full"></span>
+                                        <span class="circle circle__one"></span>
+                                        <span class="circle circle__two"></span>
+                                        <span class="circle circle__three"></span>
+                                    </div>
+                                </div>
+                                <button class="btn main__btn" type="submit">Подать заявку на участие</button>
+                            </div>
+                            <div class="">
+                                <div class="main__descr">
+                                    <div class="main__subtitle">Ученикам</div>
+                                    <ul class="main__list">
+                                        <li>Конкурс по 16 предметам</li>
+                                        <li>Доступные задания для всех учеников</li>
+                                        <li>Бесплатные дипломы и сертификаты</li>
+                                    </ul>
+                                </div>
+                                <div class="main__descr">
+                                    <div class="main__subtitle">Учителям</div>
+                                    <ul class="main__list">
+                                        <li>Бесплатные свидетельства</li>
+                                        <li>Бесплатные благодарности</li>
+                                        <li>Простое участие</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__right">
+                        <img class="main__img" src="img/students.png" alt="happy people">
+                        <div class="main__imagebox">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </body>
+
+    <script src="index.js"></script>
+</html>
